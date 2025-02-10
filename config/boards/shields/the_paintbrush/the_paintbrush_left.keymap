@@ -11,6 +11,9 @@
 // Left/Right
 #define ARDUX_LEFT 1
 
+// colemak baby
+#define ARDUX_COLEMAK 1
+
 // ARTS Row
 #define KEY_A 3
 #define KEY_R 2
