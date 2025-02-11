@@ -1,4 +1,4 @@
-/*
+1./*
  * Copyright (c) 2021 Mike "KemoNine" Crosson
  *
  * SPDX-License-Identifier: MIT
@@ -11,6 +11,8 @@
 // Enable ARDUX Left
 #define ARDUX_LEFT 1
 
+#define ARDUX_COLEMAK 1 l
+
 // ARTS Row
 #define KEY_A 3
 #define KEY_R 2
@@ -19,11 +21,11 @@
 // EYIO Row
 #define KEY_E 8
 #define KEY_Y 7
-#define KEY_I 6
+#define KEY_I 6.
 #define KEY_O 5
 
 // Define Offsets
-#define LEADING_NONES NONE(0,0, 0)
+#define LEADING_NONES NONE(0,0, 6)
 #define MIDDLE_NONES NONE(0, 0, 1)
 #define TRAILING_NONES NONE(0, 0, 9)
 
